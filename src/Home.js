@@ -99,9 +99,9 @@ const Home = () => {
             <div class="mt-3 sm:mt-0 sm:ml-3">
               <a
                 class="w-full flex items-center justify-center px-8 py-3 text-base leading-6 font-medium rounded-md text-gray-900 hover:text-gray-100 bg-gray-400 hover:bg-gray-700  focus:ring ring-offset-2 ring-purple-100 focus:outline-none transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
-                href=""
+                href="#contact"
                 rel="noopener"
-                target="_blank"
+                // target="_blank"
               >
                 Contact <div class="w-4"></div>
                 <svg
