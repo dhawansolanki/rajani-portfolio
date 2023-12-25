@@ -1,7 +1,11 @@
 import React from 'react'
 import Page from './Page'
+import { initFlowbite } from 'flowbite'
 
 const Sidebar = () => {
+useEffect(() => {
+    initFlowbite();
+  }, []);
   return (
       <>
   <button data-drawer-target="logo-sidebar" data-drawer-toggle="logo-sidebar" aria-controls="logo-sidebar" type="button" class="inline-flex items-center p-2 mt-2 ms-3 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
