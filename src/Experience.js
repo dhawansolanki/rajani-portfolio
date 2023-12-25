@@ -43,7 +43,7 @@ const Experience = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="text-brown-dark text-opacity-60 text-sm">
+                  <div className="text-brown-dark text-opacity-60 text-sm font-semibold">
                     ABB E-mobility · Full-time
                   </div>
                 </div>
@@ -81,7 +81,7 @@ const Experience = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="text-brown-dark text-opacity-60 text-sm">
+                  <div className="text-brown-dark text-opacity-60 text-sm font-semibold">
                     ABB
                   </div>
                   <ul className="list-disc pl-5 mt-2">
@@ -143,7 +143,7 @@ const Experience = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="text-brown-dark text-opacity-60 text-sm">
+                  <div className="text-brown-dark text-opacity-60 text-sm font-semibold">
                     ABB
                   </div>
                   <ul className="list-disc pl-5 mt-2">
@@ -216,7 +216,7 @@ const Experience = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="text-brown-dark text-opacity-60 text-sm">
+                  <div className="text-brown-dark text-opacity-60 text-sm font-semibold">
                     Ge Energy Industrial & Solutions · Full-time
                   </div>
                   <ul className="list-disc pl-5 mt-2">
@@ -270,7 +270,7 @@ const Experience = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="text-brown-dark text-opacity-60 text-sm">
+                  <div className="text-brown-dark text-opacity-60 text-sm font-semibold">
                     GE Energy Connections
                   </div>
                   <ul className="list-disc pl-5 mt-2">
@@ -348,7 +348,7 @@ const Experience = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="text-brown-dark text-opacity-60 text-sm">
+                  <div className="text-brown-dark text-opacity-60 text-sm font-semibold">
                     GE Energy Connections
                   </div>
                   <ul className="list-disc pl-5 mt-2">
@@ -395,7 +395,7 @@ const Experience = () => {
                       <a href="#" target="_blank" rel="noreferrer">
                         <img
                           alt="Zhiffy logo"
-                          src="/assets/img/exp-zhiffy-logo-1.webp"
+                          src="ge.svg"
                           className="w-full h-auto"
                         />
                       </a>
@@ -415,7 +415,7 @@ const Experience = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="text-brown-dark text-opacity-60 text-sm">
+                  <div className="text-brown-dark text-opacity-60 text-sm font-semibold">
                     GE Energy Connections
                   </div>
                   <ul className="list-disc pl-5 mt-2">
@@ -455,7 +455,7 @@ const Experience = () => {
                           <a
                             href="#"
                             target="_blank"
-                            className="teal-text hoverline"
+                            className="teal-text hoverline font-semibold"
                             rel="noreferrer"
                           >
                             Research Intellectual Property (IP) Proffessional
@@ -464,7 +464,7 @@ const Experience = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="text-brown-dark text-opacity-60 text-sm">
+                  <div className="text-brown-dark text-opacity-60 text-sm font-semibold">
                     GE Energy Connections
                   </div>
                   <ul className="list-disc pl-5 mt-2">
@@ -532,7 +532,7 @@ const Experience = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="text-brown-dark text-opacity-60 text-sm">
+                  <div className="text-brown-dark text-opacity-60 text-sm font-semibold">
                     GE Research · Internship
                   </div>
 
