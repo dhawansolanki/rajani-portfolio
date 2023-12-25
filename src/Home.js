@@ -79,7 +79,7 @@ const Home = () => {
             <div class="rounded-md shadow">
               <a
                 class="w-full flex items-center bg-gray-200 text-gray-900 transition duration-300 ease-in-out justify-center px-8 py-3 text-base leading-6 font-medium rounded-md   hover:bg-gray-700 hover:text-gray-100 focus:ring ring-offset-2 ring-pink-400 focus:outline-none  md:py-4 md:text-lg md:px-10"
-                href=""
+                href="#about"
               >
                 Know more about me
                 <svg
