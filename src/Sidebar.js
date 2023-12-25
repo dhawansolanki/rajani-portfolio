@@ -32,7 +32,8 @@ const Sidebar = () => {
         class="  fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0"
         aria-label="Sidebar"
       >
-        <div class=" bg-greentheme h-full px-3 py-4 overflow-y-auto dark:bg-greentheme text-black">
+        <div class="h-full px-3 py-4 overflow-y-auto text-black">
+<a href="#home">
           <div class="flex flex-col items-center">
             <img
               src="/rajanign.jpeg"
@@ -44,13 +45,14 @@ const Sidebar = () => {
               Rajani G N
             </span>
           </div>
+          </a>
           <br />
           <hr />
           <br />
           <ul class="space-y-2 font-medium">
             <li>
               <a
-                href="#"
+                href="#about"
                 class="flex items-center p-2 text-gray-900 rounded-lg dark:text-black hover:bg-gray-100 dark:hover:bg-gray-700 group"
               >
                 <svg
@@ -68,7 +70,7 @@ const Sidebar = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="#experience"
                 class="flex items-center p-2 text-gray-900 rounded-lg dark:text-black hover:bg-gray-100 dark:hover:bg-gray-700 group"
               >
                 <svg
@@ -85,7 +87,7 @@ const Sidebar = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="#projects"
                 class="flex items-center p-2 text-gray-900 rounded-lg dark:text-black hover:bg-gray-100 dark:hover:bg-gray-700 group"
               >
                 <svg
@@ -102,7 +104,7 @@ const Sidebar = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="#skills"
                 class="flex items-center p-2 text-gray-900 rounded-lg dark:text-black hover:bg-gray-100 dark:hover:bg-gray-700 group"
               >
                 <svg
@@ -119,7 +121,7 @@ const Sidebar = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="#education"
                 class="flex items-center p-2 text-gray-900 rounded-lg dark:text-black hover:bg-gray-100 dark:hover:bg-gray-700 group"
               >
                 <svg
@@ -136,7 +138,7 @@ const Sidebar = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="#contact"
                 class="flex items-center p-2 text-gray-900 rounded-lg dark:text-black hover:bg-gray-100 dark:hover:bg-gray-700 group"
               >
                 <svg

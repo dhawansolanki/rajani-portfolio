@@ -3,7 +3,7 @@ import React from "react";
 import TypeIt from "typeit-react";
 const Home = () => {
   return (
-    <div class="p-4  h-screen">
+    <div id="home" class="p-4  h-screen bg-greentheme ">
       <section class="">
         <div class="py-8 px-4 mx-auto max-w-screen-xl  lg:py-16 lg:px-12">
           <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-gray-900">

@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div class="p-4  border-2 h-full border-gray-200 border-dashed rounded-lg dark:border-gray-700">  
+    <div id="about" class="p-4  border-2 h-full border-gray-200 border-dashed rounded-lg dark:border-gray-700">  
     <div class="py-8 px-4 mx-auto max-w-screen-xl  lg:py-16 lg:px-12">
         <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-gray-900">About</h1>
         <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl   dark:text-gray-700 text-left">Connecting dots with integrated Analytics with Patent, Market, and Literature data to serve the business strategy. 
