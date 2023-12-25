@@ -2,7 +2,7 @@ import React from "react";
 import Home from "./Home";
 import About from "./About";
 import Experience from "./Experience";
-import Projects from "./Projects";
+import Articles from "./Articles";
 import Skills from "./Skills";
 import Education from "./Education";
 import Contact from "./Contact";
@@ -16,7 +16,7 @@ const Page = () => {
       <div class="h-4"></div>
       <Experience />
       <div class="h-4"></div>
-      <Projects />
+      <Articles/>
       <div class="h-4"></div>
       <Skills />
       <div class="h-4"></div>
