@@ -7,7 +7,8 @@ const Home = () => {
       <section class="">
         <div class="py-8 px-4 mx-auto max-w-screen-xl  lg:py-16 lg:px-12">
           <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-gray-900">
-            <TypeIt> Hi, I'm Rajani G N.</TypeIt>
+            {/* <TypeIt> Rajani G Narayanaswamy</TypeIt> */}
+            Rajani G Narayanaswamy
           </h1>
           <a
             href="#"
@@ -16,7 +17,7 @@ const Home = () => {
           >
             {/* <span class="text-xs bg-primary-600 rounded-full text-white px-4 py-1.5 mr-3">New</span>  */}
             <span class="text-sm font-medium px-4 py-1.5 mr-3">
-              Global Patent Officer at ABB eMobility
+            Intellectual property - Innovation - Strategic Partner
             </span>
             <svg
               class="ml-2 w-5 h-5"

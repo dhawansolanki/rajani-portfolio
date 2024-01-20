@@ -6,6 +6,7 @@ import Articles from "./Articles";
 import Skills from "./Skills";
 import Education from "./Education";
 import Contact from "./Contact";
+import Ees from "./ees"
 
 const Page = () => {
   return (
@@ -14,7 +15,8 @@ const Page = () => {
       <div class="h-4"></div>
       <About />
       <div class="h-4"></div>
-      <Experience />
+      {/* <Experience /> */}
+    <Ees />
       <div class="h-4"></div>
       <Articles/>
       <div class="h-4"></div>
