@@ -469,6 +469,11 @@ const Ees = () => {
               </table>
             </div>
           </div>
+          <br />
+          <h1>•	Vice chair for Works council, ABB eMobility Netherlands</h1>
+          <h1>•	Certifications Registered Indian Patent Agent - IN/PA2491 </h1>
+          <h1>•	IEEE PES Bangalore Chapter ExeCom Member</h1>
+          <h1>•	State President Intellectual Property Council WICCI</h1>
         </div>
       </div>
     </div>

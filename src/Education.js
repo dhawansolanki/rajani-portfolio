@@ -14,8 +14,9 @@ const Education = () => {
             <img src="/great_lake_institute_of_management.jpeg" alt="great_lake_institute_of_management" />
           </div>
           <div class="flex-grow">
-            <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Great Lakes Institute of Management</h2>
-            <strong><p>Jul 2020 - Aug 2021</p></strong>
+            <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Great Lakes</h2>
+            <h4 class="text-gray-700 font-serif  font-medium mb-3">The University of Texas at Austin</h4>
+            <strong><p>2020 - 2021</p></strong>
             <br/>
             <p class="leading-relaxed text-base">Postgraduate Degree, Data Science and Business Analytics</p>
           </div>
@@ -27,10 +28,11 @@ const Education = () => {
             <img src="/bangalore_university_Logo.webp" alt="Bangalore University Logo" />
           </div>
           <div class="flex-grow">
-            <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Bangalore University</h2>
+            <h2 class="text-gray-900 text-lg title-font font-medium mb-3">University of Visveswaraya College of Engineering</h2>
+            <h4 class="text-gray-700 font-serif  font-medium mb-3">Bangalore University</h4>
             <strong><p>2005 - 2007</p></strong>
             <br/>
-            <p class="leading-relaxed text-base">M.E, Power Electronics</p>
+            <p class="leading-relaxed text-base">Master of Engineering, Power Electronics</p>
           </div>
         </div>
       </div>
@@ -40,10 +42,11 @@ const Education = () => {
             <img src='/VTU-Logo-250x250-1.webp' alt='VTU LOGO'/>
           </div>
           <div class="flex-grow">
-            <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Visvesvaraya Technological University</h2>
+            <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Nagarjuna College of Engineering and technology</h2>
+            <h4 class="text-gray-700 font-serif  font-medium mb-3">Visvesvaraya Technological University</h4>
             <strong><p>2001 - 2005</p></strong>
             <br/>
-            <p class="leading-relaxed text-base">B.E, Electronics and Communication</p>
+            <p class="leading-relaxed text-base">Bachelor of Engineering, Electronics and Communication</p>
           </div>
         </div>
       </div>
