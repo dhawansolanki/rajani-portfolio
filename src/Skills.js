@@ -376,22 +376,22 @@ const Skills = () => {
       </div> */}
 
       <div class="py-8 px-4 mx-auto max-w-screen-xl  lg:px-12">
-        <h1 class=" text-4xl font-extrabold tracking-tight leading-none text-gray-700 md:text-5xl lg:text-6xl dark:text-gray-700">
+        <h1 class="text-2xl font-semibold leading-tight">
           Skills
         </h1>
         <section class="text-gray-600 body-font">
-          <div class="container px-5 py-24 mx-auto">
+          <div class="container px-5 py-8 mx-auto">
             <div class="flex flex-wrap -m-2">
               <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-700">Professional Skills</h1>
+                <h1 class="sm:text-xl text-xl font-medium title-font mb-4 text-gray-700">Professional Skills</h1>
               </div>
               <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-12 text-gray-700">Analytics</h1>
+                <h1 class="sm:text-xl text-xl font-medium title-font mb-12 text-gray-700">Analytics</h1>
 
               </div>
 
               <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-700">Soft skills</h1>
+                <h1 class="sm:text-xl text-xl font-medium title-font mb-4 text-gray-700">Soft skills</h1>
                 
               </div>
               <div class="p-2 lg:w-1/3 md:w-1/2 w-full">

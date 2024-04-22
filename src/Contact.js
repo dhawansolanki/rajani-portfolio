@@ -4,13 +4,13 @@ const Contact = () => {
   return (
     <div id="contact" class="p-4 border-2 h-full border-gray-200 border-dashed rounded-lg dark:border-gray-700">  
     <div class="py-8 px-4 mx-auto max-w-screen-xl  lg:py-16 lg:px-12">
-        <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-gray-900">Contact</h1>
+        <h1 class="text-2xl font-semibold leading-tight">Contact</h1>
         
     <section class="text-gray-600 body-font relative">
-    <div class="container px-5 py-24 mx-auto">
+    <div class="container px-5 py-8 mx-auto">
       <div class="flex flex-col text-center w-full mb-12">
-        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Contact Me</h1>
-        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Open for opportunities and conversations – let's connect!</p>
+        {/* <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Contact Me</h1> */}
+        {/* <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Open for opportunities and conversations – let's connect!</p> */}
       </div>
       <div class="lg:w-1/2 md:w-2/3 mx-auto">
         <div class="flex flex-wrap -m-2">

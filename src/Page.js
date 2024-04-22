@@ -20,9 +20,9 @@ const Page = () => {
       <div class="h-4"></div>
       <Articles/>
       <div class="h-4"></div>
-      <Skills />
-      <div class="h-4"></div>
       <Education />
+      <div class="h-4"></div>
+      <Skills />
       <div class="h-4"></div>
       <Contact />
     </div>

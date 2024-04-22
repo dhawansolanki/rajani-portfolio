@@ -4,7 +4,8 @@ const About = () => {
   return (
     <div id="about" class="p-4  border-2 h-full border-gray-200 border-dashed rounded-lg dark:border-gray-700">  
     <div class="py-8 px-4 mx-auto max-w-screen-xl  lg:py-16 lg:px-12">
-        <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-gray-900">About</h1>
+        <h1 class="text-2xl font-semibold leading-tight">About</h1>
+        <br/>
         <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl   dark:text-gray-700 text-left">
         “Content is the king and Context is the Kingdom”- Market and business context always drives my commitment to Intellectual Property (IP) alignment for the organization's success. I am passionate about translating ideas into products by strategically protecting these ideas and releasing IP risk free products. Connecting dots with integrated Analytics with Patent, Market, Legal and Literature data to find whitespace and serve the business strategy. Driving Innovation culture through IP Training, e-Learning modules, Ideation, workshops, events, consultations, simplified processes and strategic partnerships with innovators. My personal interest of reading kept me motivated to analyze patents meticulously and be equipped with competitors intelligence in innovation. Purpose driven company culture provides me great energy and scope for innovation. 
         </p>

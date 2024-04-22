@@ -4,9 +4,9 @@ const Education = () => {
   return (
     <div id="education" class="p-4 border-2 h-full border-gray-200 border-dashed rounded-lg dark:border-gray-700">  
     <div class="py-8 px-4 mx-auto max-w-screen-xl  lg:py-16 lg:px-12">
-        <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-gray-900">Education</h1>
+        <h1 class="text-2xl font-semibold leading-tight">Education</h1>
         <section class="text-gray-600 body-font">
-  <div class="container px-5 py-24 mx-auto flex flex-wrap">
+  <div class="container px-5 py-8 mx-auto flex flex-wrap">
     <div class="flex flex-wrap -m-4">
       <div class="p-4 lg:w-full md:w-full">
         <div class="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col">
