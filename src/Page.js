@@ -8,14 +8,16 @@ import Education from "./Education";
 import Contact from "./Contact";
 import Ees from "./ees";
 import { useState, useEffect } from "react";
-import { aboutSection, homeSection } from "./services";
+import { aboutSection, experienceSection, homeSection } from "./services";
 
 const Page = () => {
   const [homeData, setHomeData] = useState();
   const [aboutData, setAboutData] = useState();
+  const [experienceData, setExperienceData] = useState();
   useEffect(() => {
     getHomeData();
     getAboutData();
+    getExperienceData();
   }, []);
 
   const getHomeData = async () => {
@@ -28,6 +30,11 @@ const Page = () => {
     setAboutData(res);
     return;
   };
+  const getExperienceData = async () => {
+    const res = await experienceSection();
+    setExperienceData(res);
+    return;
+  };
   return (
     <div class="p-4 sm:ml-64">
       <Home data={homeData?.homes[0]} />
@@ -35,7 +42,7 @@ const Page = () => {
       <About data={aboutData?.abouts[0]} />
       <div class="h-4"></div>
       {/* <Experience /> */}
-      <Ees />
+      <Ees data={experienceData?.experiences[0]} />
       <div class="h-4"></div>
       <Articles />
       <div class="h-4"></div>

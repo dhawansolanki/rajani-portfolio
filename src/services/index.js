@@ -34,3 +34,21 @@ export const aboutSection = async () => {
   const responses = await graphQLClient.request(query);
   return responses;
 };
+export const experienceSection = async () => {
+  const query = gql`
+    query Experiences {
+      experiences {
+        experienceTitle
+        experienceDuration
+        experienceRole
+        experienceOrganization
+        experienceHighlights
+        experienceAchievement {
+          html
+        }
+      }
+    }
+  `;
+  const responses = await graphQLClient.request(query);
+  return responses;
+};
