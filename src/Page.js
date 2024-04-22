@@ -8,25 +8,31 @@ import Education from "./Education";
 import Contact from "./Contact";
 import Ees from "./ees";
 import { useState, useEffect } from "react";
-import { homeSection } from "./services";
+import { aboutSection, homeSection } from "./services";
 
 const Page = () => {
-  const [data, setData] = useState();
-
+  const [homeData, setHomeData] = useState();
+  const [aboutData, setAboutData] = useState();
   useEffect(() => {
     getHomeData();
+    getAboutData();
   }, []);
 
   const getHomeData = async () => {
     const res = await homeSection();
-    setData(res);
+    setHomeData(res);
+    return;
+  };
+  const getAboutData = async () => {
+    const res = await aboutSection();
+    setAboutData(res);
     return;
   };
   return (
     <div class="p-4 sm:ml-64">
-      <Home data={data?.homes[0]} />
+      <Home data={homeData?.homes[0]} />
       <div class="h-4"></div>
-      <About />
+      <About data={aboutData?.abouts[0]} />
       <div class="h-4"></div>
       {/* <Experience /> */}
       <Ees />

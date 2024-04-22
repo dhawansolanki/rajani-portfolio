@@ -22,3 +22,15 @@ export const homeSection = async () => {
   const responses = await graphQLClient.request(query);
   return responses;
 };
+export const aboutSection = async () => {
+  const query = gql`
+    query Abouts {
+      abouts {
+        aboutHeading
+        aboutContent
+      }
+    }
+  `;
+  const responses = await graphQLClient.request(query);
+  return responses;
+};
