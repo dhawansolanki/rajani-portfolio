@@ -1,14 +1,12 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import TypeIt from "typeit-react";
-const Home = () => {
+const Home = ({ data }) => {
   return (
     <div id="home" class="p-4  h-screen bg-greentheme ">
       <section class="">
         <div class="py-8 px-4 mx-auto max-w-screen-xl  lg:py-16 lg:px-12">
           <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-gray-900">
-            {/* <TypeIt> Rajani G Narayanaswamy</TypeIt> */}
-            Rajani G Narayanaswamy
+            {data?.heading || ""}
           </h1>
           <a
             href="#"
@@ -17,7 +15,7 @@ const Home = () => {
           >
             {/* <span class="text-xs bg-primary-600 rounded-full text-white px-4 py-1.5 mr-3">New</span>  */}
             <span class="text-sm font-medium px-4 py-1.5 mr-3">
-            Intellectual property - Innovation - Strategic Partner
+              {data?.tagline || ""}
             </span>
             <svg
               class="ml-2 w-5 h-5"
@@ -33,11 +31,7 @@ const Home = () => {
             </svg>
           </a>
           <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl   dark:text-gray-700 text-left">
-            Connecting dots with integrated Analytics with Patent, Market, and
-            Literature data to serve the business strategy. Driving Innovation
-            culture through IP Training, e-Learning modules, Idea
-            Generation/Ideation, World IP Day events, and by having Strategic
-            partnerships with R&D Teams.
+            {data?.introductionContent || ""}
           </p>
           {/*
           <div class="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-left sm:space-y-0 sm:space-x-4">
@@ -82,7 +76,7 @@ const Home = () => {
                 class="w-full flex items-center bg-gray-200 text-gray-900 transition duration-300 ease-in-out justify-center px-8 py-3 text-base leading-6 font-medium rounded-md   hover:bg-gray-700 hover:text-gray-100 focus:ring ring-offset-2 ring-pink-400 focus:outline-none  md:py-4 md:text-lg md:px-10"
                 href="#about"
               >
-                Know more about me
+                {data?.homeButton1 || ""}
                 <svg
                   class="ml-2 -mr-1 w-5 h-5"
                   fill="currentColor"
@@ -102,9 +96,8 @@ const Home = () => {
                 class="w-full flex items-center justify-center px-8 py-3 text-base leading-6 font-medium rounded-md text-gray-900 hover:text-gray-100 bg-gray-400 hover:bg-gray-700  focus:ring ring-offset-2 ring-purple-100 focus:outline-none transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
                 href="#contact"
                 rel="noopener"
-                // target="_blank"
               >
-                Contact <div class="w-4"></div>
+                {data?.homeButton2 || ""} <div class="w-4"></div>
                 <svg
                   class="mr-2 -ml-1 w-5 h-5"
                   fill="currentColor"
